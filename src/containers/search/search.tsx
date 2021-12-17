@@ -23,7 +23,7 @@ function Search() {
               slug
             }
             frontmatter {
-              date(formatString: "MMMM D, YYYY")
+              date(formatString: "MMMM D, YYYY", locale: "vi")
               title
               description
               tags
@@ -92,12 +92,12 @@ function Search() {
           id="Search"
           value={searchQuery}
           onChange={searchData}
-          placeholder="Enter Your Search Topic"
+          placeholder="Tìm kiếm tất cả bài viết và tin tức"
         />
       </SearchForm>
       <SearchResult>
         {queryResults.length == 0 && searchQuery !== '' ? (
-          <NoResult>No result found</NoResult>
+          <NoResult>Không tìm thấy bài viết hoặc tin tức phù hợp với từ khoá tìm kiếm của bạn.</NoResult>
         ) : (
           ''
         )}

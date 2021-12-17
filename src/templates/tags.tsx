@@ -18,7 +18,7 @@ const Tags = ({ pageContext, data }: any) => {
           <TagName>{tag}</TagName>
           {`A collection of ${totalCount} post`}
         </TagPageHeading>
-        {edges.map(({ node, index }: any) => (
+        {edges.map(({ node }: any) => (
           <PostCard
             key={node.fields.slug}
             title={node.frontmatter.title}
@@ -50,7 +50,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "DD [<span>] MMMM [</span>]")
+            date(formatString: "DD [<span>] MMMM [</span>]", locale: "vi")
             title
             tags
             description
