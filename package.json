@@ -1,8 +1,8 @@
 {
-  "name": "@blog/modern-agency",
+  "name": "hoichuthapdoangiang",
   "private": true,
   "version": "2.2.0",
-  "author": "RedQ, Inc",
+  "author": "Anthos, Ltd",
   "dependencies": {
     "@styled-system/theme-get": "^5.1.2",
     "axios": "^0.24.0",
