@@ -107,7 +107,7 @@ const BlogPostTemplate = (props: any) => {
 
       {edges.length !== 0 && (
         <RelatedPostWrapper>
-          <RelatedPostTitle>Related Posts</RelatedPostTitle>
+          <RelatedPostTitle>Tin tức liên quan</RelatedPostTitle>
           <RelatedPostItems>
             {edges.map(({ node }: any) => {
               // Random Placeholder Color
@@ -168,7 +168,7 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        date(formatString: "DD MMM, YYYY")
+        date(formatString: "DD MMMM, YYYY", locale: "vi")
         description
         tags
         cover {

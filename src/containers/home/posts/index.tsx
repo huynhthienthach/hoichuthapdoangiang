@@ -21,7 +21,7 @@ const Posts: React.FunctionComponent<PostsProps> = () => {
               slug
             }
             frontmatter {
-              date(formatString: "DD [<span>] MMM [</span>]")
+              date(formatString: "DD [<span>] MMMM [</span>]", locale: "vi")
               title
               description
               tags
@@ -88,7 +88,7 @@ const Posts: React.FunctionComponent<PostsProps> = () => {
       </PostRow>
       <SeeMore>
         <Link to="page/1">
-          <Button title="See more" type="submit" />
+          <Button title="Xem thêm" type="submit" />
         </Link>
       </SeeMore>
     </BlogPostsWrapper>

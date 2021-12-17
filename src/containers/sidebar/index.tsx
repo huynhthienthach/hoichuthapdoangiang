@@ -3,20 +3,16 @@ import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import FeaturePost from '../../components/feature-post/feature-post';
 import PromotionImage from '../../images/ad.png';
-import useInstagram from '../../hooks/use-instagram';
 import {
   SidebarWrapper,
   SidebarWidget,
   WidgetTitle,
   TagItem,
-  InstagramWrapper,
-  InstagramPhoto,
 } from './style';
 
 type SidebarProps = {};
 
 const Sidebar: React.FunctionComponent<SidebarProps> = () => {
-  const instagramPhotos = useInstagram();
   const Data = useStaticQuery(graphql`
     query {
       allMarkdownRemark(
@@ -30,7 +26,7 @@ const Sidebar: React.FunctionComponent<SidebarProps> = () => {
               slug
             }
             frontmatter {
-              date(formatString: "DD [<span>] MMM [</span>]")
+              date(formatString: "DD [<span>] MMMM [</span>]", locale: "vi")
               title
               description
               tags
@@ -71,7 +67,7 @@ const Sidebar: React.FunctionComponent<SidebarProps> = () => {
       </SidebarWidget>
 
       <SidebarWidget>
-        <WidgetTitle>Latest Post</WidgetTitle>
+        <WidgetTitle>Tin tức mới nhất</WidgetTitle>
         {Posts.map(({ node }: any) => {
           const title = node.frontmatter.title || node.fields.slug;
           // Random Placeholder Color
@@ -119,47 +115,6 @@ const Sidebar: React.FunctionComponent<SidebarProps> = () => {
             </Link>
           </TagItem>
         ))}
-      </SidebarWidget>
-
-      <SidebarWidget>
-        <WidgetTitle>Instagram</WidgetTitle>
-        {instagramPhotos ? (
-          <InstagramWrapper>
-            {instagramPhotos.slice(0, 4).map((node: any) => {
-              // Random Placeholder Color
-              const placeholderColors = [
-                '#55efc4',
-                '#81ecec',
-                '#74b9ff',
-                '#a29bfe',
-                '#ffeaa7',
-                '#fab1a0',
-                '#e17055',
-                '#0984e3',
-                '#badc58',
-                '#c7ecee',
-              ];
-              const setColor =
-                placeholderColors[
-                  Math.floor(Math.random() * placeholderColors.length)
-                ];
-
-              return (
-                <InstagramPhoto key={node?.id}>
-                  <a href={node?.permalink} target="_blank">
-                    <img
-                      src={node?.media_url}
-                      alt="Instagram Photo"
-                      style={{ backgroundColor: setColor }}
-                    />
-                  </a>
-                </InstagramPhoto>
-              );
-            })}
-          </InstagramWrapper>
-        ) : (
-          ''
-        )}
       </SidebarWidget>
     </SidebarWrapper>
   );

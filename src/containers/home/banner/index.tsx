@@ -21,7 +21,7 @@ const Banner: React.FunctionComponent<BannerProps> = () => {
               slug
             }
             frontmatter {
-              date(formatString: "DD [<span>] MMM [</span>]")
+              date(formatString: "DD [<span>] MMM [</span>]", locale: "vi")
               title
               description
               tags
@@ -47,7 +47,7 @@ const Banner: React.FunctionComponent<BannerProps> = () => {
     <BannerWrapper>
       <BannerInner>
         <FeaturePosts>
-          <Title>Featured Posts</Title>
+          <Title>Tin tức nổi bật</Title>
           {Posts.map(({ node }: any) => {
             const title = node.frontmatter.title || node.fields.slug;
             // Random Placeholder Color

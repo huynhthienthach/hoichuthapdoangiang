@@ -22,20 +22,16 @@ type NavbarProps = {
 
 const MenuItems = [
   {
-    label: 'Home',
+    label: 'Trang chủ',
     url: '/',
   },
   {
-    label: 'About',
+    label: 'Giới thiệu',
     url: '/about',
   },
   {
-    label: 'Contact',
+    label: 'Liên hệ',
     url: '/contact',
-  },
-  {
-    label: '404 Page',
-    url: '/404',
   },
 ];
 
@@ -86,7 +82,7 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
         </NavSearchButton>
       </NavbarWrapper>
 
-      <NavSearchWrapper className={state.toggle === true ? 'expand' : ''}>
+      <NavSearchWrapper className={state.toggle ? 'expand' : ''}>
         <NavSearchFromWrapper>
           <SearchContainer />
           <SearchCloseButton

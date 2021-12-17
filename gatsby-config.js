@@ -95,8 +95,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `StoryHub - Personal Blog`,
-        short_name: `StoryHub`,
+        name: `Hội Chữ Thập Đỏ An Giang`,
+        short_name: `An Giang Red Cross`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
