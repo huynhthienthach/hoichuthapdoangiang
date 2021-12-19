@@ -15,7 +15,7 @@ export const BannerWrapper = styled.div`
   justify-content: center;
 
   @media (max-width: 1500px) {
-    min-height: 400px;
+    min-height: 530px;
     padding: 80px 0;
   }
 
