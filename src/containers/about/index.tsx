@@ -16,7 +16,7 @@ import {
 const SocialLinks = [
   {
     icon: <IoLogoFacebook />,
-    url: 'https://www.facebook.com/redqinc/',
+    url: 'https://www.facebook.com/Hoichuthapdoangiang/',
     tooltip: 'Facebook',
   },
 ];
