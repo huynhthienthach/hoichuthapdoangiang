@@ -2,7 +2,6 @@ import _ from 'lodash';
 import React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import FeaturePost from '../../components/feature-post/feature-post';
-import PromotionImage from '../../images/ad.png';
 import {
   SidebarWrapper,
   SidebarWidget,
@@ -55,17 +54,6 @@ const Sidebar: React.FunctionComponent<SidebarProps> = () => {
 
   return (
     <SidebarWrapper>
-      <SidebarWidget>
-        <WidgetTitle>Promotion</WidgetTitle>
-        <a
-          href="https://1.envato.market/r1jdv"
-          aria-label="Get StoryHub"
-          target="_blank"
-        >
-          <img src={PromotionImage} alt="Get StoryHub" />
-        </a>
-      </SidebarWidget>
-
       <SidebarWidget>
         <WidgetTitle>Tin tức mới nhất</WidgetTitle>
         {Posts.map(({ node }: any) => {
