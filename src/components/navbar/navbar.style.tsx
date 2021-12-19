@@ -12,7 +12,7 @@ export const NavbarWrapper = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	border-bottom: 1px solid ${themeGet('borderColor', '#DBDBDB')};
-	padding: 30px 75px;
+	padding: 10px 75px;
 	background-color: #fff;
 	transition: 0.25s ease-in-out;
 	@media (max-width: 1400px) {
