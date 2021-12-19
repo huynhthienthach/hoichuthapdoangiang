@@ -36,17 +36,17 @@ const NotFound: React.FunctionComponent<NotFoundProps> = () => {
   return (
     <NotFoundWrapper>
       <NotFoundContent>
-        <h1>This Page Was Lost</h1>
+        <h1>Trang này không tồn tại</h1>
         <p>
-          The Page You are looking for isn’t available. Try to search again or
-          use the Go Back button below.
+          Trang mà bạn yêu cầu hiện không tồn tại. Hãy cố gắng tìm kiếm với từ khoá mới
+          hoặc bấm vào nút Quay lại dưới đây.
         </p>
         <Goback>
           <Link to="/">
             <Icon>
               <IoMdArrowRoundBack />
             </Icon>
-            Go Back
+            Quay lại
           </Link>
         </Goback>
       </NotFoundContent>

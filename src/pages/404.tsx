@@ -14,7 +14,7 @@ const NotFoundPage = () => {
       <SEO title="404: Không tìm thấy trang yêu cầu" />
       <NotFound />
       <Footer>
-        Copyright &copy; {new Date().getFullYear()}
+        Bản quyền thuộc về &copy; {new Date().getFullYear()}
         <a href="https://hoichuthapdoangiang.org/"> Hội chữ thập đỏ tỉnh An Giang.</a>
       </Footer>
     </>
