@@ -1,4 +1,8 @@
 # hoichuthapdoangiang
+Before update anything, make sure to update latest commit from main
+```
+git pull origin main
+```
 1. Create post branch: ```git checkout -b posts/la_lanh_dum_la_rach```
 2. Create new post folder by copy and paste an existing folder in `/contents`
 3. Update Content in index.md
