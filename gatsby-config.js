@@ -8,7 +8,7 @@ module.exports = {
     author: `Admin`,
     about: `Hội Chữ thập đỏ Việt Nam hoạt động trong lĩnh vực nhân đạo, tham gia thực hiện hoặc phối hợp với tổ chức, cá nhân thực hiện hoạt động Chữ thập đỏ. Mục đích cao cả của Hội là nhân đạo, hòa bình, hữu nghị, góp phần xây dựng đất nước Việt Nam dân giàu, nước mạnh, xã hội dân chủ, công bằng, văn minh.`,
     description: `Trang thông tin chính thức của Hội Chữ Thập Đỏ An Giang`,
-    siteUrl: `https://hoichuthapdoangiang.vercel.app`,
+    siteUrl: `https://www.hoichuthapdoangiang.org`,
   },
   plugins: [
     {
