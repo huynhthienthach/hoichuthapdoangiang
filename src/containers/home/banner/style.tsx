@@ -9,18 +9,18 @@ export const BannerWrapper = styled.div`
   background-image: url(${BannerBG});
   background-size: cover;
   background-position: center;
-  min-height: 870px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 500px;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
 
-  @media (max-width: 1500px) {
-    min-height: 700px;
+  @media (max-width: 1300px) {
+    min-height: 400px;
     padding: 80px 0;
   }
 
   @media (max-width: 990px) {
-    min-height: 600px;
+    min-height: 400px;
     padding: 60px 0;
   }
 
