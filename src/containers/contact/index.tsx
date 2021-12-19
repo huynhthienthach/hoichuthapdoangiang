@@ -46,12 +46,18 @@ const Contact: React.SFC<{}> = () => {
           <Form>
             <ContactWrapper>
               <ContactPageTitle>
-                <h2>Contact</h2>
+                <h2>Liên hệ</h2>
                 <p>
-                  StoryHub theme comes with a contact form built-in. You can use
-                  this form with Gatsbay Js service and get up to 50 submissions
-                  for free per form per month. Also, you can easily switch to
-                  another service if you want.
+                  Văn phòng Hội chữ thập đỏ tỉnh An Giang
+                </p>
+                <p>
+                  Địa chỉ: số 10-11 Lê Lợi (số cũ là 25), P. Mỹ Bình, Tp. Long Xuyên (Đối diện cổng số 7 Bệnh viện Sản Nhi)
+                </p>
+                <p>
+                  Số điện thoại: +84 76 385 2905
+                </p>
+                <p>
+                  Email: hoictd@angiang.gov.vn
                 </p>
               </ContactPageTitle>
               <ContactFromWrapper>
@@ -62,7 +68,7 @@ const Contact: React.SFC<{}> = () => {
                     value={`${values.firstName}`}
                     onChange={handleChange}
                     onBlur={handleBlur}
-                    label="Name"
+                    label="Tên"
                     notification={`${
                       errors.firstName && touched.firstName
                         ? errors.firstName
@@ -87,16 +93,16 @@ const Contact: React.SFC<{}> = () => {
                   value={`${values.message}`}
                   onChange={handleChange}
                   onBlur={handleBlur}
-                  label="Message"
+                  label="Lời nhắn"
                   notification={
                     errors.message && touched.message ? errors.message : ''
                   }
                 />
                 <Button
-                  title="Submit"
+                  title="Gửi"
                   type="submit"
-                  isLoading={isSubmitting ? true : false}
-                  loader="Submitting.."
+                  isLoading={!!isSubmitting}
+                  loader="Đang gửi liên hệ.."
                 />
               </ContactFromWrapper>
             </ContactWrapper>
