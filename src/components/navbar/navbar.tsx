@@ -27,11 +27,11 @@ const MenuItems = [
   },
   {
     label: 'Giới thiệu',
-    url: '/about',
+    url: '/gioi-thieu',
   },
   {
     label: 'Liên hệ',
-    url: '/contact',
+    url: '/lien-he',
   },
 ];
 
