@@ -1,7 +1,7 @@
 ---
 title: Hội Chữ thập đỏ Tp Châu Đốc với tinh thần “Lá lành đùm lá rách” hỗ trợ những gia đình bị thiên tai làm ảnh hưởng đêm 8/4/2020.
 date: '2020-04-12T23:46:37.121Z'
-description: La lanh dum la rach
+description: Lá lành đùm lá rách
 cover: './preview.jpg'
 tags: ['hoat-dong', 'chu-thap-do', 'tin-tuc', 'featured']
 ---
