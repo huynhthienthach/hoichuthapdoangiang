@@ -11,11 +11,11 @@ const NotFoundPage = () => {
     <>
       <ResetCss />
       <Navbar />
-      <SEO title="404: Not Found" />
+      <SEO title="404: Không tìm thấy trang yêu cầu" />
       <NotFound />
       <Footer>
         Copyright &copy; {new Date().getFullYear()}
-        <a href="https://redq.io/"> RedQ, Inc.</a>
+        <a href="https://hoichuthapdoangiang.org/"> Hội chữ thập đỏ tỉnh An Giang.</a>
       </Footer>
     </>
   );
