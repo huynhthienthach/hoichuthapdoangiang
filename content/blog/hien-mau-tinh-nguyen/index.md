@@ -9,6 +9,3 @@ tags: ['hienmau', 'tin-tuc']
 ![Hiến máu tình nguyện](2.jpeg "HIẾN MÁU TÌNH NGUYỆN")
 
 ![Hiến máu tình nguyện](3.jpeg "HIẾN MÁU TÌNH NGUYỆN")
-
-
-
