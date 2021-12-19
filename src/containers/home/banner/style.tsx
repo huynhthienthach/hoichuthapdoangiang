@@ -10,11 +10,11 @@ export const BannerWrapper = styled.div`
   background-size: cover;
   background-position: center;
   min-height: 500px;
-  //display: flex;
-  //align-items: center;
-  //justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1500px) {
     min-height: 400px;
     padding: 80px 0;
   }
