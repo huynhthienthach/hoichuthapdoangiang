@@ -13,11 +13,9 @@ tags: ['hoat-dong', 'chu-thap-do', 'tin-tuc', 'i-nhan-dao']
 - Bước 2: Tại cửa sổ tìm kiếm gõ: An Giang
 - Bước 3: “Lan tỏa” để chia sẽ đến nhiều người hơn biết về hoàn cảnh đối tượng
 - Bước 4: “Ủng hộ”: tiền hoặc hiện vật theo nhu cầu đối tượng trong phần thông tin. Bằng cách đăng nhập Inhandao thông qua zalo (hình bên dưới)
-️  Hội Chữ thập đỏ sẽ chuyển đến đối tượng và có cập nhật hoạt động để Quý Mạnh Thường Quân theo dõi.
+  ![i_nhân đạo](1.png "i nhân đạo ")
+  Hội Chữ thập đỏ sẽ chuyển đến đối tượng và có cập nhật hoạt động để Quý Mạnh Thường Quân theo dõi.
   Nếu chưa thể “Ủng hộ” ngay hôm nay, xin hãy “Lan tỏa” để giúp Hội Chữ thập đỏ kêu gọi sự chung tay của cộng đồng.
   Chỉ như thế thôi, mùa xuân này những mảnh đời kém may mắn hơn chúng ta sẽ ấm áp hơn rất nhiều và cả chúng ta cũng sẽ thấy mùa xuân này thật ý nghĩa
 
-![i_nhân đạo](1.png "i nhân đạo ")
-
 ![i_nhân đạo](2.png "i nhân đạo")
-![img.png](img.png)
