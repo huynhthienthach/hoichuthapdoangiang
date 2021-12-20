@@ -20,3 +20,4 @@ tags: ['hoat-dong', 'chu-thap-do', 'tin-tuc', 'i-nhan-dao']
 ![i_nhân đạo](1.png "i nhân đạo ")
 
 ![i_nhân đạo](2.png "i nhân đạo")
+![img.png](img.png)
