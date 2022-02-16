@@ -5,7 +5,7 @@
   "author": "Anthos, Ltd",
   "dependencies": {
     "@styled-system/theme-get": "^5.1.2",
-    "axios": "^0.24.0",
+    "axios": "^0.25.0",
     "babel-plugin-styled-components": "^1.13.3",
     "disqus-react": "^1.1.2",
     "formik": "^2.2.9",
